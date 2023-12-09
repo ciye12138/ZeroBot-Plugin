@@ -31,7 +31,7 @@ import (
 	//                               vvvv                               //
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/antiabuse" // 违禁词
- 
+
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chat" // 基础词库
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/sleepmanage" // 统计睡眠时间
@@ -258,7 +258,7 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	 sus = append(sus, 2312193663)
+	sus = append(sus, 2312193663)
 	// sus = append(sus, 87654321)
 
 	// 启用 webui
